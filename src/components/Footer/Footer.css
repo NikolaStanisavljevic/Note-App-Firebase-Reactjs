@@ -1,0 +1,6 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  flex-flow: nowrap;
+  height: 7%;
+  background-color: rgba(0, 0, 0, 0.5); }

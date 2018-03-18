@@ -1,0 +1,36 @@
+.Header {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: nowrap;
+  min-height: 12rem;
+  max-height: 2rem;
+  color: #fff;
+  font-family: 'Satisfy', cursive;
+  font-size: 8rem;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  margin-bottom: .6rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 10px #000; }
+  .Header__btn {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #d5d6d2;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    cursor: pointer;
+    box-shadow: 1px 3px 6px #000;
+    outline: none;
+    transition: all .2s; }
+    @media only screen and (max-width: 37.5em) {
+      .Header__btn {
+        font-size: 2rem; } }
+    .Header__btn:active {
+      transform: translateY(2px); }
+    .Header__btn:hover {
+      background-color: #e6e7e3; }
+  .Header > p {
+    font-size: 7rem; }
+    @media only screen and (max-width: 37.5em) {
+      .Header > p {
+        font-size: 6rem; } }

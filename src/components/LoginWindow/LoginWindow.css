@@ -1,0 +1,62 @@
+.Login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45rem;
+  height: 20rem; }
+  .Login__message {
+    font-size: 2rem;
+    text-align: center;
+    color: #ac2500;
+    margin-top: 1rem; }
+  .Login > input::-webkit-input-placeholder {
+    color: rgba(58, 81, 153, 0.6); }
+  .Login input[type=text] {
+    width: 45rem;
+    height: 3rem;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    color: #000;
+    font-family: 'Exo', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .4rem; }
+    .Login input[type=text]:focus {
+      outline: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.9); }
+  .Login input[type=password] {
+    width: 45rem;
+    height: 3rem;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    color: #000;
+    font-family: 'Exo', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .4rem;
+    margin-top: 1rem; }
+    .Login input[type=password]:focus {
+      outline: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.9); }
+  .Login input[type=button] {
+    width: 45rem;
+    height: 3.5rem;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #777;
+    font-family: 'Exo', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: .6rem;
+    margin-top: 1rem; }
+    .Login input[type=button]:hover {
+      opacity: 0.8; }
+    .Login input[type=button]:active {
+      opacity: 0.6; }
+    .Login input[type=button]:focus {
+      outline: none; }

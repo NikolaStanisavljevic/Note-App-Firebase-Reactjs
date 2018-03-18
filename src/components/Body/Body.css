@@ -1,0 +1,8 @@
+.Body {
+  padding-top: 2.4rem;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto; }

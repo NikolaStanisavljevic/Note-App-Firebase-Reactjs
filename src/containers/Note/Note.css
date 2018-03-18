@@ -1,0 +1,45 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.8; } }
+
+@keyframes fadeOut {
+  from {
+    opacity: 0.8; }
+  to {
+    opacity: 0; } }
+
+.Note {
+  padding: 1rem 1rem 3.8rem 3.4rem;
+  height: auto;
+  margin: auto;
+  margin-bottom: .8rem;
+  width: 60%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  background-color: #3a5199;
+  border-radius: 3px;
+  box-shadow: 1px 3px 6px #000;
+  opacity: .8;
+  color: #fff;
+  font-weight: 700;
+  white-space: pre-wrap; }
+  .Note__content {
+    float: left;
+    padding-right: 7rem;
+    padding-bottom: 1rem;
+    display: block; }
+  .Note__btn {
+    color: #aa9;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    font-size: 1.3em; }
+    .Note__btn:hover {
+      color: #ac2500; }
+  .Note--fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: .3s; }

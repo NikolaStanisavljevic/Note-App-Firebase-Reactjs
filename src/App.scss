@@ -1,0 +1,36 @@
+@import "shared";
+
+* {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html{
+  height: 100%;
+  font-size: 62.5%;
+
+  @include respond(phone) {
+    font-size: 40%;
+  }
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background-image: linear-gradient(to right bottom, $background-color-1, $background-color-2), url('./assets/img/background2.jpg');
+  background-position: top;
+  background-size: cover;
+}
+
+.notesWrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+

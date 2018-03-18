@@ -1,0 +1,10 @@
+@import "../../shared";
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: nowrap;
+    height: 7%;
+    background-color: rgba($color-black, .5);
+
+}

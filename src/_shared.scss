@@ -1,0 +1,76 @@
+
+
+
+//Colors
+
+$color-white:#fff;
+$color-black:#000;
+$color-green: #01a783;
+$color-green-2: #01BF9B;
+$color-gray: #777;
+$color-gray-2:#aa9;
+$color-warning:#ac2500;
+$color-primary:#3a5199;
+$background-color-1: rgba(255, 255, 255, 0.3);
+$background-color-2: rgba(193, 225, 220, 0.8);
+$background-color-3: rgba(34,49,63,0.8);
+$header-background: rgba(0,0,0,0.5);
+$header-logout-btn: #d5d6d2;
+$header-logout-btn-light: #e6e7e3;
+$input-background-color: #e4f1fe;
+
+
+
+
+//Mixins
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+//MEDIA QUERY MENAGER
+
+
+
+//0-600px Phone
+//
+//600-900px Tablet portrait
+//
+//900-1200px Tablet landscape
+//
+//[1200-1800] is where normal style apply
+//
+//1800px + Big desktop
+//
+//
+//$breakpoints argument choices
+//- phone
+//- tab-port
+//- tab-land
+//- big-desktop
+//
+//ORDER: Base + typography > general layout + grid > page layout > components
+
+
+
+
+// 1em = 16px (have to convert to em coz of browser mixin compitability)
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) { @content }; //600px
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) { @content }; //900px
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75em) { @content }; //1200px
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5em) { @content }; //1800only screen and px
+  }
+}
