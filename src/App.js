@@ -137,7 +137,7 @@ class App extends Component {
 
 
   render() {
-console.log(this.state.notes)
+
     if (this.state.loggedIn) {
       return (
       <div className="notesWrapper">
