@@ -87,7 +87,10 @@ class App extends Component {
   }
 
   AddNote = (note) => {
-      this.db.push().set({ noteContent: note  + ` \u000A \u000A -- Sent by ${this.state.name}  --` })
+      if(note.length > 0){
+        this.db.push().set({ noteContent: note  + ` \u000A \u000A -- Sent by ${this.state.name}  --` })
+      } 
+      
   };
 
   removeNote = (id) => {
