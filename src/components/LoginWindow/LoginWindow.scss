@@ -11,6 +11,10 @@
         color: $color-warning;
         margin-top: 1rem;
 
+        @include respond(phone) {
+            font-size: 2.5rem;
+        }
+
     }
 
     & > input::-webkit-input-placeholder{
@@ -33,6 +37,10 @@
             outline: none;
             border-bottom: 1px solid rgba($color-white, .9);
         }
+
+        @include respond(phone) {
+            font-size: 2.5rem;
+        }
     }
 
     & input[type=password]{
@@ -51,6 +59,10 @@
         &:focus {
             outline: none;
             border-bottom: 1px solid rgba($color-white, .9);
+        }
+
+        @include respond(phone) {
+            font-size: 2.5rem;
         }
     }
 
@@ -78,6 +90,10 @@
 
         &:focus{
             outline: none;
+        }
+
+        @include respond(phone) {
+            font-size: 2.3rem;
         }
     }
 

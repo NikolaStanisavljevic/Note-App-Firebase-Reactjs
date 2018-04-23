@@ -10,6 +10,9 @@
     text-align: center;
     color: #ac2500;
     margin-top: 1rem; }
+    @media only screen and (max-width: 37.5em) {
+      .Login__message {
+        font-size: 2.5rem; } }
   .Login > input::-webkit-input-placeholder {
     color: rgba(58, 81, 153, 0.6); }
   .Login input[type=text] {
@@ -26,6 +29,9 @@
     .Login input[type=text]:focus {
       outline: none;
       border-bottom: 1px solid rgba(255, 255, 255, 0.9); }
+    @media only screen and (max-width: 37.5em) {
+      .Login input[type=text] {
+        font-size: 2.5rem; } }
   .Login input[type=password] {
     width: 45rem;
     height: 3rem;
@@ -41,6 +47,9 @@
     .Login input[type=password]:focus {
       outline: none;
       border-bottom: 1px solid rgba(255, 255, 255, 0.9); }
+    @media only screen and (max-width: 37.5em) {
+      .Login input[type=password] {
+        font-size: 2.5rem; } }
   .Login input[type=button] {
     width: 45rem;
     height: 3.5rem;
@@ -60,3 +69,6 @@
       opacity: 0.6; }
     .Login input[type=button]:focus {
       outline: none; }
+    @media only screen and (max-width: 37.5em) {
+      .Login input[type=button] {
+        font-size: 2.3rem; } }
