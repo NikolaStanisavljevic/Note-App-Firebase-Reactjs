@@ -29,6 +29,10 @@
             transition: 0.2s ease-in;
             outline: none;
         }
+
+        @include respond(phone) {
+            font-size: 2.3rem;
+        }
     }
 
     &__btn {
@@ -55,6 +59,10 @@
         &:active {
             transform: translateY(-2px);
         }
+
+        @include respond(phone) {
+             font-size: 2.3rem;
+         }
     }
 }
 
