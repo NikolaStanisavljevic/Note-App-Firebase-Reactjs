@@ -15,20 +15,43 @@ Wait until instalation is finished and type<br>
 
 `npm start`<br>
 
-to start live server and preview of app <br><br>
+To start live server and preview of app <br><br>
 
 
 *If you are using Yarn first step will be <br>
 
 `yarn install`<br>
 
-and after instalation<br>
+And after instalation<br>
 
 `yarn run start`<br>
 
 ## Usage 
 
-*Step 1 : Enter your email and password into required fields.<br>
+*Step 1: Enter your email and password into required fields.<br>
+
+![](src/screenshots/first.png)<br>
 
 *Step 2: Click/Tap on Singup button to register into database,
-or click/tap Login button if you are already registered.
+or click/tap Login button if you are already registered.<br>
+
+![](src/screenshots/second.png)<br>
+
+*Step 3: You can enter your note in input field and add as many task you want,
+also you can delete them on x button.<br>
+
+![](src/screenshots/third.png)<br>
+
+*Step 4: After finish menaging your tasks,there is log out button in top right corner.<br>
+
+![](src/screenshots/forth.png)<br><br>
+
+## Built With
+
+- React.JS - Javascript framework<br>
+- Firebase -  Web application development platform<br>
+- Visual Studio Code -  Source code editor<br>
+
+## Author
+
+- **Nikola Stanisavljevic**   :+1:
