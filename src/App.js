@@ -4,7 +4,7 @@ import LoginWindow from './components/LoginWindow/LoginWindow';
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
-import { DB_CONFIG} from "./config/config";
+import { DB_CONFIG } from "./config/config";
 import * as firebase from 'firebase';
 import 'firebase/database';
 
@@ -54,7 +54,8 @@ class App extends Component {
 
           if(firebaseUser) {
               this.setState({
-                  loggedIn: true
+                  loggedIn: true,
+                  name: firebaseUser.email
               })
           } else {
               this.setState({
@@ -62,27 +63,28 @@ class App extends Component {
               })
           }
 
-          if (firebaseUser.uid === 'stTUCTkvZ4aQiwcc5TalORsdzDE3') {
-              this.setState({
-                  name: 'Nikola'
-              })
-          } else if (firebaseUser.uid === 'OOnMImGQNRUi8b5hABcQVRw4EFf2') {
-              this.setState({
-                  name: 'Marina'
-              })
-          } else if (firebaseUser.uid === 'aZJ50tizOVUErlQxfWT3f5zk1dB2') {
-              this.setState({
-                  name: 'Nevena'
-              })
-          } else if (firebaseUser.uid === 'qP1KPx9WjOcqK9sBeQcLXYPKeQ53') {
-              this.setState({
-                  name: 'Vanja'
-              })
-          } else {
-              this.setState({
-                  name: 'Unknown'
-              })
-          }
+
+          // if (firebaseUser.uid === 'stTUCTkvZ4aQiwcc5TalORsdzDE3') {
+          //     this.setState({
+          //         name: 'Nikola'
+          //     })
+          // } else if (firebaseUser.uid === 'OOnMImGQNRUi8b5hABcQVRw4EFf2') {
+          //     this.setState({
+          //         name: 'Marina'
+          //     })
+          // } else if (firebaseUser.uid === 'aZJ50tizOVUErlQxfWT3f5zk1dB2') {
+          //     this.setState({
+          //         name: 'Nevena'
+          //     })
+          // } else if (firebaseUser.uid === 'qP1KPx9WjOcqK9sBeQcLXYPKeQ53') {
+          //     this.setState({
+          //         name: 'Vanja'
+          //     })
+          // } else {
+          //     this.setState({
+          //         name: 'Unknown'
+          //     })
+          // }
       });
   }
 

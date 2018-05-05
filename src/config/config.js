@@ -1,10 +1,10 @@
 
 
 export const DB_CONFIG  = {
-    apiKey: "AIzaSyBwCgnP_qagf2gUiyZMHbRudXjWhQGbaLQ",
-    authDomain: "teatrix-56477.firebaseapp.com",
-    databaseURL: "https://teatrix-56477.firebaseio.com",
-    projectId: "teatrix-56477",
-    storageBucket: "teatrix-56477.appspot.com",
-    messagingSenderId: "827629193370"
+    apiKey: "AIzaSyDu4lbdohA26McmDjDaccWsoJ9h8co_kC4",
+    authDomain: "teatrix-github.firebaseapp.com",
+    databaseURL: "https://teatrix-github.firebaseio.com",
+    projectId: "teatrix-github",
+    storageBucket: "teatrix-github.appspot.com",
+    messagingSenderId: "502423719268"
 };
