@@ -1,21 +1,19 @@
 @import "../../shared";
 
-
 .Header {
     display: flex;
     justify-content: space-around;
     flex-flow: nowrap;
     min-height: 12rem;
     max-height: 2rem;
-    color: #fff;
+    color: $color-white;
     font-family: 'Satisfy', cursive;
     font-size: 8rem;
     text-align: center;
-    padding:2rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
     margin-bottom: .6rem;
     background-color: $header-background;
     text-shadow: 3px 3px 10px $color-black;
-
     &__btn {
         padding: 2rem;
         border-radius: 10px;
@@ -29,23 +27,17 @@
         @include respond(phone) {
             font-size: 2rem;
         }
-
         &:active {
             transform: translateY(2px);
         }
-
         &:hover {
             background-color: $header-logout-btn-light;
         }
     }
-
-    & > p {
+    &>p {
         font-size: 7rem;
-
         @include respond(phone) {
             font-size: 6rem;
         }
     }
-
-
 }

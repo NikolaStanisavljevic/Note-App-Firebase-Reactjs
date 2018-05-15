@@ -30,21 +30,21 @@ And after instalation<br>
 
 *Step 1: Enter your email and password into required fields.<br>
 
-![](src/screenshots/first.png)<br>
+![](src/assets/screenshots/first.png)<br>
 
 *Step 2: Click/Tap on Singup button to register into database,
 or click/tap Login button if you are already registered.<br>
 
-![](src/screenshots/second.png)<br>
+![](src/assets/screenshots/second.png)<br>
 
 *Step 3: You can enter your note in input field and add as many task you want,
 also you can delete them on x button.<br>
 
-![](src/screenshots/third.png)<br>
+![](src/assets/screenshots/third.png)<br>
 
 *Step 4: After finish menaging your tasks,there is log out button in top right corner.<br>
 
-![](src/screenshots/forth.png)<br><br>
+![](src/assets/screenshots/forth.png)<br><br>
 
 ## Built With
 

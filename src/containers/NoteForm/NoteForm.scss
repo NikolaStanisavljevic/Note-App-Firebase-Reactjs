@@ -1,12 +1,11 @@
 @import "../../shared";
 
-.Form{
+.Form {
     margin: auto;
     display: flex;
     flex-flow: nowrap;
     width: 100%;
     justify-content: center;
-
     &__input {
         width: 60%;
         font-size: 1.5em;
@@ -18,23 +17,19 @@
         color: $color-white;
         transition: 0.2s ease-out;
         outline: none;
-
-        &::-webkit-input-placeholder{
+        &::-webkit-input-placeholder {
             color: $color-gray-2;
         }
-
-        &:focus{
+        &:focus {
             background-color: $input-background-color;
             color: $color-black;
             transition: 0.2s ease-in;
             outline: none;
         }
-
         @include respond(phone) {
             font-size: 2.3rem;
         }
     }
-
     &__btn {
         border: none;
         margin: 0;
@@ -48,24 +43,17 @@
         transition: 0.2s ease-out;
         cursor: pointer;
         outline: none;
-
-        &:hover{
+        &:hover {
             background-color: $color-green-2;
             color: $color-white;
             transition: 0.2s ease-out;
             outline: none;
         }
-
         &:active {
             transform: translateY(-2px);
         }
-
         @include respond(phone) {
-             font-size: 2.3rem;
-         }
+            font-size: 2.3rem;
+        }
     }
 }
-
-
-
-

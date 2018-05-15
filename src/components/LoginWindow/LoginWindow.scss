@@ -1,27 +1,22 @@
 @import '../../shared';
 
-.Login{
+.Login {
     @include absCenter;
     width: 45rem;
     height: 20rem;
-
     &__message {
         font-size: 2rem;
         text-align: center;
         color: $color-warning;
         margin-top: 1rem;
-
         @include respond(phone) {
             font-size: 2.5rem;
         }
-
     }
-
-    & > input::-webkit-input-placeholder{
+    &>input::-webkit-input-placeholder {
         color: rgba($color-primary, .6);
     }
-
-    & input[type=text]{
+    & input[type=text] {
         width: 45rem;
         height: 3rem;
         background: transparent;
@@ -32,18 +27,15 @@
         font-size: 2rem;
         font-weight: 700;
         padding: .4rem;
-
         &:focus {
             outline: none;
             border-bottom: 1px solid rgba($color-white, .9);
         }
-
         @include respond(phone) {
             font-size: 2.5rem;
         }
     }
-
-    & input[type=password]{
+    & input[type=password] {
         width: 45rem;
         height: 3rem;
         background: transparent;
@@ -55,18 +47,15 @@
         font-weight: 700;
         padding: .4rem;
         margin-top: 1rem;
-
         &:focus {
             outline: none;
             border-bottom: 1px solid rgba($color-white, .9);
         }
-
         @include respond(phone) {
             font-size: 2.5rem;
         }
     }
-
-    & input[type=button]{
+    & input[type=button] {
         width: 45rem;
         height: 3.5rem;
         background: $color-white;
@@ -79,26 +68,17 @@
         font-weight: 400;
         padding: .6rem;
         margin-top: 1rem;
-
         &:hover {
             opacity: 0.8;
         }
-
         &:active {
             opacity: 0.6;
         }
-
-        &:focus{
+        &:focus {
             outline: none;
         }
-
         @include respond(phone) {
             font-size: 2.3rem;
         }
     }
-
 }
-
-
-
-
